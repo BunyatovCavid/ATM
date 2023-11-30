@@ -173,7 +173,7 @@ namespace ATM
                 {
                     if (!Accounts.Contains(new Model() { Name = model.Name, Password = model.Password }))
                     {
-                        //Accounts-elara elave etmek ucun  yeni bir model yaratdim "new Model".
+                        //Accounts-elave etmek ucun  yeni bir model yaratdim "new Model".
                         //Model klassinin icindeki Operations-larin data tipi List<OperationModel> oldugundan yeni bir List<OperationModel> yaradaraq
                         //Operations-a teyin edirem "Operations = new List<OperationModel>() "
                         //ve yaratdigim List<OperationModel>-ni yaradarken icinde data olsun deye "List<OperationModel>() {new OperationModel() {...} } " seklinde yaratdim.
